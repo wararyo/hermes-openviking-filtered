@@ -1,0 +1,5 @@
+name: openviking_filtered
+version: 0.1.0
+description: "OpenViking memory with scheduler-injected turns (heartbeat2 wakes, plugin injections) relabelled so they are not stored as the user's own words. Requires the openviking plugin."
+requires_env: []
+hooks: []
