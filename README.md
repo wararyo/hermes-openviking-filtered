@@ -32,10 +32,10 @@ OpenViking の `sync_turn` に渡る前に、差し込まれたターンの**ユ
 
 ```bash
 # GitHub に置いた場合
-hermes plugins install <GitHubユーザー名>/hermes-openviking-filtered
+hermes plugins install wararyo/hermes-openviking-filtered
 
 # または直接 clone する場合
-git clone <このリポジトリのURL> "${HERMES_HOME:-$HOME/.hermes}/plugins/openviking_filtered"
+git clone https://github.com/wararyo/hermes-openviking-filtered "${HERMES_HOME:-$HOME/.hermes}/plugins/openviking_filtered"
 ```
 
 記憶プロバイダを切り替えて、gateway を再起動します。
